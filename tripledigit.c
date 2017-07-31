@@ -59,7 +59,7 @@ int checknumber(int x, int y, int z, int a, int b)
 			f2 = 0;
 		}
 
-		if (f == x && f1 !=3 && f2 != 3)
+		if (f == x && f1 !=1 && f2 != 1)
 		{
 			f3 = 1;
 		}
@@ -74,7 +74,7 @@ int checknumber(int x, int y, int z, int a, int b)
 
 		if (f1 != 0 && f2 != 0 && f3 != 0)
 		{
-			printf("%03d %03d %03d : holy cow\n", a, b, c);
+			printf("%03d %03d %03d\n", a, b, c);
 		}
 
 		return c;
